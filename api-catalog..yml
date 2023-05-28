@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: api-catalog
+ 
+info:
+  application:
+     name: api-catalog
 
 eureka:
   instance:
