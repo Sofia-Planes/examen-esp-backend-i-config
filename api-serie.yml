@@ -9,12 +9,19 @@ spring:
       version: 4.0.2
   data:
     mongodb:
-      database: test
+      username: usr-serie-mongo
+      password: pwd-serie-mongo
+      database: serie-dev-mongo
       port: 27017
+      
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
       
 info:
   application:
-     name: api-catalog
+     name: api-serie
 
 eureka:
   instance:
