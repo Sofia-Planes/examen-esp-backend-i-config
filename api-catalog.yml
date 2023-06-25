@@ -11,6 +11,9 @@ spring:
     mongodb:
       database: test-catalog
       port: 27018
+  
+  zipkin:
+    baseUrl: http://localhost:9411/
      
 info:
   application:
